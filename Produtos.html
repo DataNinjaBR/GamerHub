@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GamerHub - Produtos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="https://media.discordapp.net/attachments/1031791738173521964/1108257001655517184/Design_sem_nome.png?width=625&height=625" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+		.game-image {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+.search-button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.search-button:hover {
+    color: #212529;
+    background-color: #e6e6e6;
+    border-color: #d6d6d6;
+}
+
+.search-button:focus, .search-button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.search-button:active, .search-button.active {
+    background-color: #d6d6d6;
+    border-color: #b3b3b3;
+}
+.search-button {
+    color: #007bff; 
+    border-color: #007bff; 
+}
+
+.search-button:hover {
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff;
+}
+
+.search-button:focus, .search-button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5); 
+}
+
+.search-button:active, .search-button.active {
+    color: #fff; 
+    background-color: #0069d9; 
+    border-color: #0056b3; 
+}
+
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	    <div class="logo">
+        <a href="index.html">
+            <img src="https://media.discordapp.net/attachments/1031791738173521964/1108358898026561566/logo.png?width=396&height=162" alt="Logo do GamerHub">
+        </a>
+    </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        <form class="form-inline my-2 my-lg-0" id="search-form">
+            <input class="form-control mr-sm-2" type="search" id="search-input" placeholder="Buscar" aria-label="Buscar">
+            <button class="search-button my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        </div>
+    </nav>
+
+    <!-- Seção de Produtos -->
+    <section class="container">
+        <h2>Jogos</h2>
+		<div class="container">
+          <div class="row">
+    <!-- Produto 1 -->		  
+        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top game-image" src="https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f" alt=""></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">The Witcher 3: Wild Hunt</a>
+            </h4>
+            <h5>R$100</h5>
+            <p class="card-text"> Um jogo de RPG de ação ambientado em um mundo de fantasia, onde você assume o papel do caçador de monstros Geralt de Rivia. Explore um vasto mundo aberto, tome decisões difíceis e enfrente criaturas assustadoras em uma narrativa rica e imersiva.</p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+    </div>
+</div>
+    <!-- Produto 2 -->
+         <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top game-image" src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fgrand-theft-auto-v%2Fhome%2FGTAV_EGS_Artwork_1920x1080_Hero-Carousel_V06-1920x1080-1503e4b1320d5652dd4f57466c8bcb79424b3fc0.jpg" alt=""></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">Grand Theft Auto V</a>
+            </h4>
+            <h5>R$100</h5>
+            <p class="card-text">Um jogo de ação em mundo aberto onde você pode explorar uma cidade fictícia chamada Los Santos. Jogue como três personagens diferentes enquanto realiza missões emocionantes, participa de atividades criminosas e interage com uma variedade de personagens peculiares.</p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+    </div>
+</div>
+    <!-- Produto 3 -->
+         <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top game-image" src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000000964/811461b8d1cacf1f2da791b478dccfe2a55457780364c3d5a95fbfcdd4c3086f" alt=""></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">Minecraft</a>
+            </h4>
+            <h5>R$100</h5>
+            <p class="card-text">Um jogo de construção e aventura em um mundo gerado proceduralmente. Explore, crie e construa estruturas incríveis em um ambiente de blocos. Sobreviva a monstros à noite e desvende segredos enquanto mergulha na jogabilidade criativa e infinita.</p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+    </div>
+</div>
+    <!-- Produto 4 -->
+         <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <a href="#"><img class="card-img-top game-image" src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58" alt=""></a>
+        <div class="card-body">
+            <h4 class="card-title">
+                <a href="#">The Legend of Zelda: Breath of the Wild</a>
+            </h4>
+            <h5>R$100</h5>
+            <p class="card-text">Um jogo de ação e aventura que se passa em um vasto mundo aberto. Jogue como Link e embarque em uma jornada épica para derrotar o malvado Calamity Ganon. Explore paisagens deslumbrantes, resolva quebra-cabeças desafiadores e enfrente inimigos formidáveis.</p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+    </div>
+</div>
+        <!-- Produto 5 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000019691/7b595a1766b1fe3cdc21bb1bc027e225fca6d812ab6f97f0216394a2421016ef" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Overwatch</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text"> Um jogo de tiro em equipe onde você escolhe entre uma variedade de heróis com habilidades únicas. Forme equipes estratégicas e lute em intensas partidas multiplayer online para conquistar objetivos, defender pontos-chave e derrotar a equipe inimiga.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+ 
+         <!-- Produto 6 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://cdn1.epicgames.com/b30b6d1b4dfd4dcc93b5490be5e094e5/offer/RDR2476298253_Epic_Games_Wishlist_RDR2_2560x1440_V01-2560x1440-2a9ebe1f7ee202102555be202d5632ec.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Red Dead Redemption 2</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de ação e aventura em mundo aberto situado no Velho Oeste americano. Jogue como Arthur Morgan, um fora da lei, e explore um vasto cenário com uma narrativa envolvente. Participe de roubos, duelos e missões emocionantes enquanto enfrenta os desafios do oeste selvagem.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+         <!-- Produto 7 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/2x1_NSwitchDS_Fortnite_Chapter4_Season2.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Fortnite</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de batalha real online onde você compete contra outros jogadores para ser o último sobrevivente. Construa estruturas, procure armas e lute em um intenso confronto enquanto a tempestade se fecha e diminui a área de jogo.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+         <!-- Produto 8 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000026262/4a7c422cd8270ae2de1ac4bf9d944137b8fe51d822694224de24ddda299615fb" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Pokémon Sword and Shield</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de RPG onde você embarca em uma jornada para se tornar um Mestre Pokémon. Explore a região de Galar, capture diferentes espécies de Pokémon, batalhe contra treinadores e enfrente desafios em busca de se tornar o campeão da Liga Pokémon.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+         <!-- Produto 9 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://s2.glbimg.com/5XWAiZWLsKaTFEsjNl89L5NjMpE=/0x0:695x381/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/y/W/BbDO06TMOuDz1sTpcJMA/2017-01-19-resident-evil-7-biohazard-artwork-004.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Resident Evil 7: Biohazard</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de terror em primeira pessoa que coloca você na pele de Ethan Winters, que está em busca de sua esposa desaparecida. Explore uma mansão assustadora, resolva quebra-cabeças e sobreviva a encontros aterrorizantes com seres grotescos em uma história sinistra.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+         <!-- Produto 10 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://cdn1.epicgames.com/salesEvent/salesEvent/UK_ACV_DELUXE%20_EPIC_Store%20Landscape_2560x1440%20_2560x1440-0585cdaf65bee5ffce91881220ade66b" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Assassin's Creed Valhalla</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de ação e aventura em mundo aberto onde você assume o papel de Eivor, um guerreiro viking. Explore a Inglaterra medieval, construa seu assentamento, participe de batalhas épicas e descubra segredos enquanto vive a jornada dos nórdicos em terras estrangeiras.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+		<!-- Produto 11 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://cdn.akamai.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1666917466" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Stardew Valley</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de simulação de fazenda onde você herda uma pequena propriedade rural. Plante colheitas, crie animais, pesque, explore cavernas e interaja com os moradores locais. Vivencie a tranquilidade da vida rural, construa relacionamentos e transforme sua fazenda em um local próspero.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+		<!-- Produto 12 -->
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <a href="#"><img class="card-img-top game-image" src="https://cdn1.epicgames.com/3328b08ac1c14540aa265a1a85c07839/offer/hzd_wide-2560x1440-bd312be05c49cf339097777c493cb899.jpg" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        <a href="#">Horizon Zero Dawn</a>
+                    </h4>
+                    <h5>R$100</h5>
+                    <p class="card-text">Um jogo de ação e aventura ambientado em um mundo pós-apocalíptico dominado por criaturas robóticas. Jogue como Aloy, uma caçadora habilidosa, e embarque em uma jornada para desvendar os mistérios do passado. Utilize armas avançadas, enfrente desafios estratégicos e descubra os segredos de um mundo perdido.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+        </div>
+   
+    </section>
+
+    <!-- Rodapé -->
+<footer class="footer mt-auto py-3 bg-dark text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Informações de Contato</h5>
+                <p>Endereço: Rua dos Gamers, 123, Cidade dos Jogos</p>
+                <p>Telefone: (00) 1234-5678</p>
+                <p>Email: contato@gamerhub.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Recursos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Redes Sociais</h5>
+                <a href="https://api.whatsapp.com/send?phone=7798512208"target="_blank"><i class="fab fa-whatsapp"></i></a>
+				<a href="#"target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/@Wizards_ofc/featured"target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@wizards_ofc"target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+    <p>© 2023 GamerHub. Desenvolvido por: Fernando R. Guimarães.</p>
+	</footer>
+
+    <script>
+
+document.getElementById('search-form').addEventListener('submit', function(event) {
+    // Prevenir a ação padrão de envio do formulário
+    event.preventDefault();
+
+    // Obter o valor de pesquisa
+    var searchValue = document.getElementById('search-input').value;
+
+    // Fazer algo com o valor de pesquisa
+    alert('Você pesquisou: ' + searchValue);
+});
+
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Obrigado pela sua compra!');
+            });
+        });
+    </script>
+</body>
+</html>

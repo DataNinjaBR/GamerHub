@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GamerHub - Contato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="icon" href="https://media.discordapp.net/attachments/1031791738173521964/1108257001655517184/Design_sem_nome.png?width=625&height=625" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .contact-section {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	    <div class="logo">
+        <a href="index.html">
+            <img src="https://media.discordapp.net/attachments/1031791738173521964/1108358898026561566/logo.png?width=396&height=162" alt="Logo do GamerHub">
+        </a>
+    </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre nós</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Contato -->
+    <section class="container contact-section">
+        <h2>Contato</h2>
+        <p>Para qualquer dúvida, sugestão ou reclamação, por favor, entre em contato conosco através do formulário abaixo:</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" id="name" placeholder="Seu nome">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu email">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+<footer class="footer mt-auto py-3 bg-dark text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Informações de Contato</h5>
+                <p>Endereço: Rua dos Gamers, 123, Cidade dos Jogos</p>
+                <p>Telefone: (00) 1234-5678</p>
+                <p>Email: contato@gamerhub.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Recursos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Redes Sociais</h5>
+                <a href="https://api.whatsapp.com/send?phone=7798512208"target="_blank"><i class="fab fa-whatsapp"></i></a>
+				<a href="#"target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.youtube.com/@Wizards_ofc/featured"target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.tiktok.com/@wizards_ofc"target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+    <p>© 2023 GamerHub. Desenvolvido por: Fernando R. Guimarães.</p>
+</footer>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            alert('Sua mensagem foi enviada. Obrigado!');
+        });
+    </script>
+</body>
+</html>

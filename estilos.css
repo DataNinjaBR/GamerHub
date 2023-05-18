@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; 
+    background: url("https://media.discordapp.net/attachments/1108551259713187850/1108558634931195914/38446523-e956-4e5b-865f-0e7ec739dd5b.png?width=1421&height=540") no-repeat center center / cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero {
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;
+}
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    flex: 1 0 21%; /* Crescer, encolher e base */
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: center;
+}
+
+nav .logo img {
+    max-width: 200px;  
+}
+
+ .search-button {
+        display: inline-block;
+        font-weight: 400;
+        color: #212529;
+        text-align: center;
+        vertical-align: middle;
+        cursor: pointer;
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+
+.search-button:hover {
+    color: #212529;
+    background-color: #e6e6e6;
+    border-color: #d6d6d6;
+}
+
+.search-button:focus, .search-button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.search-button:active, .search-button.active {
+    background-color: #d6d6d6;
+    border-color: #b3b3b3;
+}
+.search-button {
+    color: #007bff; 
+    border-color: #007bff; 
+}
+
+.search-button:hover {
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff;
+}
+
+.search-button:focus, .search-button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .5); 
+}
+
+.search-button:active, .search-button.active {
+    color: #fff; 
+    background-color: #0069d9; 
+    border-color: #0056b3; 
+}
+
+.navbar.bg-dark {
+    background-color: #010101 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.footer.bg-dark {
+    background-color: #010101 !important;
+}
+
+.footer.bg-dark, .footer.bg-dark h5, .footer.bg-dark p, .footer.bg-dark a {
+    color: #FFFFFF;
+}
+
+.footer.bg-dark a:hover {
+    color: #AAAAAA;
+}
+.produtos-bg {
+    background-color: #f4f9fa;
+}
+
+#produtos .btn {
+    background-color: #98dce5;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+#produtos .btn:hover {
+    background-color: #76c1d4;
+}
+
+
